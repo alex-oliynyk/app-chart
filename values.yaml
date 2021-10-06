@@ -1,0 +1,5 @@
+selector     : sentrifugo-app
+replicas     : 3
+image        : alexolink/sentrifugo:v1
+containerPort: 80
+nodePort     : 30007
